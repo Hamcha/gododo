@@ -1,0 +1,27 @@
+{
+  "name": "gododo-static",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "webpack --progress --profile --colors --watch",
+    "build": "webpack --progress --profile --colors"
+  },
+  "dependencies": {
+    "babel": "*",
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "*",
+    "babel-preset-stage-0": "*",
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "*",
+    "jsx-loader": "*",
+    "node-sass": "*",
+    "sass-loader": "*",
+    "style-loader": "*",
+    "superagent": "^1.8.3",
+    "webpack": "*"
+  }
+}

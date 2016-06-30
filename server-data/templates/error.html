@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset=utf-8 />
+	<title>{{.ErrorNo}} {{.ErrorMsg}}</title>
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:900" rel="stylesheet">
+	<style>
+	html, body { width: 100%; height: 100%; overflow: hidden; }
+	body {
+		background: #f3f3f3; text-align: center;
+		display: flex; align-content: center; justify-content: center; flex-direction: column;
+	}
+	h1, h2 { font-family: 'Titillium Web', sans-serif; margin: 0; margin-top: -6rem; }
+	h1 { font-size: 15rem; margin-left: -1rem; transform: rotate(-5deg); }
+	h2 { font-size: 2.4rem; margin-left: 7rem; }
+	main { position: relative; width: auto; }
+	#bg {
+		left: 50%; margin-left: -10rem; width: 20rem; top: -3em; height: 20rem;
+		position: absolute; background: #fff; border-radius: 20rem; z-index: -1;
+	}
+	</style>
+</head>
+<body>
+	<main>
+		<div id="bg"></div>
+		<h1>{{.ErrorFancyNo}}</h1>
+		<h2>{{.ErrorMsg}}</h2>
+	</main>
+</body>
+</html>
